@@ -42,7 +42,7 @@ body{
 }
 
 .navbar navbar-logo h1{
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 
@@ -157,7 +157,7 @@ body{
 .hero .content a{
     text-align: center;
     background: var(--bg-5);
-    padding: .7rem 1rem;
+    padding: .7rem 2rem;
     display: inline-block;
     margin-top: 1rem;
     color: var(--bg-3);
@@ -297,7 +297,7 @@ body{
 }
 
 .room .room-card .card-img button{
-    width: 150px;
+    width: 100px;
     padding: .5rem 1.5rem;
     background-color: var(--bg-5);
     color: var(--bg-4);
@@ -462,10 +462,14 @@ body{
     }
 }
 @media (max-width: 768px){
+
     html{
         font-size: 67.5%;
     }
 
+    .navbar .navbar-logo h1{
+        font-size: 2rem;
+    }
     .navbar .navbar-list{
         position: absolute;
         top: 100%;
@@ -500,8 +504,53 @@ body{
         transform: scaleX(0.2);
     }
 
+    .hero .content h2{
+        font-size: 3.5rem;
+    }
+
+    .hero .content p{
+        font-size: 1.8rem;
+    }
+
+    .hero .content a{
+        margin-top: 1.5rem;
+        font-size: 1.8rem;
+    }
+
     .about .row, .row-1{
         flex-wrap: wrap;
+    }
+
+    .about h2{
+        font-size: 3rem;
+    }
+
+    .about .row .content h3{
+        font-size: 1.8rem;
+        margin-top: 1rem;
+    }
+
+    .about .row .content p{
+        font-size: 1.5rem;
+    }
+
+    .about .row-1 .content p{
+        font-size: 1.5rem;
+    }
+
+    /* member */
+
+    .member h2{
+        font-size: 3rem;
+    }
+
+    .member .card .card-text h3{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .member .card .card-text p{
+        font-size: 1.5rem;
     }
 
     .member .card {
@@ -512,11 +561,43 @@ body{
     .member .card .card-text{
         padding-bottom: 2rem;
     }
+
+    /* Room */
+
+    .room h2{
+        font-size: 3rem;
+    }
+
+    .room .content .room-card .card-img h3{
+        font-size: 1.8rem;
+    }
+
+    .room .content .room-card .card-img p{
+        font-size: 1.5rem;
+    }
+
+    .room .content .room-card .card-img button{
+        font-size: 1.8rem;
+    }
+
+
+
+
     .room .content{
         display: flex;
         flex-direction: column;
 
         justify-content: center;
+    }
+
+    /* contact */
+
+    .contact h2{
+        font-size: 3rem;
+    }
+
+    .contact p{
+        font-size: 1.8rem;
     }
 
     .contact .row{
@@ -525,6 +606,33 @@ body{
 
     .contact .row .map{
         height: 30rem;
+    }
+
+    /* footer */
+
+    .footer-content .header-footer h3{
+        font-size: 2rem;
+    }
+
+    .footer-content .header-footer p{
+        font-size: 1.4rem;
+    }
+
+    .footer-content .header-footer{
+        padding: 2rem;
+    }
+
+    .footer-content .list-footer {
+        font-size: 1.5rem;
+    }
+
+
+    .footer-bottom p{
+        font-size: 1.5rem;
+    }
+
+    .footer .footer-bottom {
+        padding: 2.5rem;
     }
 }
 @media (max-width: 450px){
